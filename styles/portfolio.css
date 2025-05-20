@@ -90,6 +90,74 @@ p {
   margin: 30px;
 }
 
+.logo {
+  height: 60px;
+}
+nav {
+  background: #fff8f2;
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+  text-decoration: none;
+  line-height: 42px;
+  margin-left: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #4e342e;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 100ms ease-in-out;
+  padding: 10px 20px;
+}
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
